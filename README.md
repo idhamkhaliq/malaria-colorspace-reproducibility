@@ -79,7 +79,7 @@ These results establish internal computational integrity for the archived experi
 Before uploading to Zenodo/OSF/GitHub:
 
 1. fill the exact dataset URL in `docs/DATA_AVAILABILITY.md`;
-2. choose explicit licenses (`LICENSE_NOT_SET.md` currently blocks silent license assumptions);
+2. choose explicit licenses (`Confirm repository licensing and third-party data terms before release.` currently blocks silent license assumptions);
 3. optionally add the full prediction/model artifacts as a separately versioned large deposit;
 4. upload this frozen release;
 5. obtain the repository URL/DOI;
