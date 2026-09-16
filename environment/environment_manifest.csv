@@ -1,0 +1,13 @@
+component,version_or_value,evidence_class,source
+Python,3.13.15,EXACT,Executed notebook output
+TensorFlow,2.20.0,EXACT,Executed notebook output
+Keras,3.13.2,EXACT,Saved .keras metadata
+NumPy,2.1.3,EXACT,Executed notebook output
+pandas,2.2.3,EXACT,Executed notebook output
+scikit-learn,1.6.1,EXACT,Executed notebook output
+SciPy,1.16.3,EXACT,Executed notebook output
+Matplotlib,3.10.0,EXACT,Executed notebook output
+GPU,NVIDIA T4,EXACT,Colab notebook metadata
+CUDA,Not recorded,UNKNOWN,Do not infer
+cuDNN,Not recorded,UNKNOWN,Do not infer
+NVIDIA driver,Not recorded,UNKNOWN,Do not infer

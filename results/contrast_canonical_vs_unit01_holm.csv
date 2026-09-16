@@ -1,0 +1,13 @@
+representation,finetune,metric,mean_diff_canonical_minus_unit01,ci_low,ci_high,p_raw,p_holm,reject_holm_0_05
+grayscale,False,accuracy,-0.004859,-0.010299,0.000581,,0.613931,False
+grayscale,False,recall,-0.010342,-0.029081,0.008396,,0.932328,False
+grayscale,False,auc,-0.003553,-0.004942,-0.002164,0.002076,0.024908,True
+grayscale,True,accuracy,0.001199,-0.002846,0.005244,,1.0,False
+grayscale,True,recall,0.008164,-0.006068,0.022395,,0.932328,False
+grayscale,True,auc,-0.000815,-0.001793,0.000163,,0.613931,False
+rgb,False,accuracy,-0.00055,-0.005006,0.003905,,1.0,False
+rgb,False,recall,-0.00344,-0.012273,0.005394,,1.0,False
+rgb,False,auc,0.00063,-3.2e-05,0.001292,,0.574258,False
+rgb,True,accuracy,0.002348,-0.000316,0.005013,,0.613931,False
+rgb,True,recall,0.005114,0.000603,0.009625,0.034589,0.380475,False
+rgb,True,auc,0.000487,-0.00019,0.001165,,0.698937,False

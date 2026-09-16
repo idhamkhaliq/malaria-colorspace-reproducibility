@@ -1,0 +1,2 @@
+prediction_runs_expected,prediction_runs_pass,split_files_expected,split_files_pass,cnn_models_expected,cnn_structural_pass,cnn_full_load_expected,cnn_full_load_pass,cnn_full_load_status,expected_params_per_cnn,all_cnn_params_consistent,expected_input_shape,all_cnn_input_shapes_consistent,expected_output_shape,all_cnn_output_shapes_consistent,max_prediction_metric_absdiff,group_leakage_detected,filepath_leakage_detected,overall_status
+30,30,5,5,25,25,25,25,PASS,2619074,True,"(None, 224, 224, 3)",True,"(None, 2)",True,1.1102230246251565e-16,False,False,PASS

@@ -1,0 +1,9 @@
+preprocessing,representation,finetune,n_splits,accuracy_mean,accuracy_sd,precision_mean,recall_mean,f1_mean,auc_mean,brier_mean
+unit_0_1,grayscale,False,5,0.921878,0.01552,0.912618,0.915617,0.913534,0.97645,0.058129
+unit_0_1,grayscale,True,5,0.957516,,0.971679,0.932405,0.951438,0.988859,0.033596
+unit_0_1,rgb,False,5,0.947196,,0.942185,0.940034,0.941062,0.985321,0.0413
+unit_0_1,rgb,True,5,0.961926,,0.97204,0.941677,0.956487,0.990545,0.030491
+mobilenet_v2_canonical,grayscale,False,5,0.917019,0.012501,0.911377,0.905274,0.908186,0.972897,0.061997
+mobilenet_v2_canonical,grayscale,True,5,0.958715,0.013556,0.966978,0.940569,0.953531,0.988044,0.033344
+mobilenet_v2_canonical,rgb,False,5,0.946645,0.014998,0.944361,0.936594,0.940389,0.985951,0.040759
+mobilenet_v2_canonical,rgb,True,5,0.964274,0.011932,0.972614,0.946791,0.959419,0.991033,0.029125

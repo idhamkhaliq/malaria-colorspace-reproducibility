@@ -1,0 +1,3 @@
+control,n_splits,accuracy_mean,auc_mean,interpretation_limit
+color_only_logistic_regression,5,0.814,0.8668,global color statistics; no spatial organization
+gaussian_blur_cnn,5,0.9497,0.9862,"kernel=15, sigma=7; spatial-detail-degraded, not morphology-free"

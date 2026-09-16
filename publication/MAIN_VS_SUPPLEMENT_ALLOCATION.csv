@@ -1,0 +1,18 @@
+Item,Content,Recommended_location,Rationale
+Table 1,Dataset/split integrity,Main,Compact sample/split integrity
+Table 2,Main 2×2×2 factorial results,Main,Core RQ1/RQ2/RQ4 evidence
+Table 3,RGB vs grayscale contrasts,Main or Supplement,Main if statistics are central; otherwise supplement
+Table 4,Fine-tuning contrasts,Supplement,Supports RQ2 without overloading main text
+Table 5,Preprocessing contrasts,Supplement,Sensitivity analysis
+Table 6,Anti-shortcut controls,Main,Core RQ3 evidence
+Table 7,Calibration,Supplement,Secondary characterization
+Table 8,Integrity audit,Supplement,Reproducibility/integrity support
+Figure 1,Experimental design,Main,High-value orientation figure
+Figure 2,Accuracy interaction,Main,Best visual summary of RQ1/RQ2
+Figure 3,RGB–grayscale contrasts,Main,Effect size + uncertainty
+Figure 4,Preprocessing delta,Main or Supplement,RQ4 robustness
+Figure 5,Anti-shortcut controls,Main,Core novelty
+Figure 6,ECE,Supplement,Secondary probability analysis
+Figure 7,Integrity audit,Supplement,Audit summary
+Reliability diagram,Per-bin calibration,Pending,Requires verified bin-level data
+Grad-CAM panel,Representative explanations,Pending,Requires verified image/model outputs

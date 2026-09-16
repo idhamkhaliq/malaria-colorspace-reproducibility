@@ -1,0 +1,13 @@
+preprocessing,representation,metric,mean_diff_finetuned_minus_frozen,ci_low,ci_high,p_raw,p_holm,reject_holm_0_05
+unit_0_1,grayscale,accuracy,0.035638,0.027427,0.043849,,0.002719,True
+unit_0_1,grayscale,recall,0.016789,-0.022582,0.056159,,0.603958,False
+unit_0_1,grayscale,auc,0.012409,0.008208,0.01661,,0.008429,True
+unit_0_1,rgb,accuracy,0.01473,0.012993,0.016468,,0.000232,True
+unit_0_1,rgb,recall,0.001643,-0.01092,0.014206,,0.734869,False
+unit_0_1,rgb,auc,0.005225,0.002847,0.007602,,0.021893,True
+mobilenet_v2_canonical,grayscale,accuracy,0.041696,0.034839,0.048552,,0.000793,True
+mobilenet_v2_canonical,grayscale,recall,0.035295,0.012676,0.057913,,0.049307,True
+mobilenet_v2_canonical,grayscale,auc,0.015147,0.011618,0.018677,,0.002719,True
+mobilenet_v2_canonical,rgb,accuracy,0.017629,0.012624,0.022633,,0.0049,True
+mobilenet_v2_canonical,rgb,recall,0.010197,0.001541,0.018853,,0.092303,False
+mobilenet_v2_canonical,rgb,auc,0.005082,0.002048,0.008116,,0.048305,True

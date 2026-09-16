@@ -1,0 +1,13 @@
+preprocessing,finetune,metric,mean_diff_rgb_minus_gray,ci_low,ci_high,p_raw,p_holm,reject_holm_0_05
+unit_0_1,False,accuracy,0.025317,0.019255,0.03138,0.000316,0.003161,True
+unit_0_1,False,recall,0.024417,-0.004201,0.053036,0.076918,0.153837,False
+unit_0_1,False,auc,0.008871,0.006112,0.01163,0.00087,0.007834,True
+unit_0_1,True,accuracy,0.00441,0.002501,0.006319,0.003037,0.024298,True
+unit_0_1,True,recall,0.009272,0.004688,0.013856,0.00494,0.034581,True
+unit_0_1,True,auc,0.001686,0.000674,0.002699,0.00985,0.04925,True
+mobilenet_v2_canonical,False,accuracy,0.029626,0.02405,0.035202,0.000123,0.001475,True
+mobilenet_v2_canonical,False,recall,0.03132,0.014422,0.048218,0.006763,0.040578,True
+mobilenet_v2_canonical,False,auc,0.013054,0.010343,0.015765,0.000181,0.001991,True
+mobilenet_v2_canonical,True,accuracy,0.005559,0.001813,0.009305,0.014615,0.05846,False
+mobilenet_v2_canonical,True,recall,0.006222,-0.002171,0.014616,0.108666,0.153837,False
+mobilenet_v2_canonical,True,auc,0.002988,0.000805,0.005172,0.0191,0.05846,False

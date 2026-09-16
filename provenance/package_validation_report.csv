@@ -1,0 +1,38 @@
+file,check,status,detail
+code/01_original_unit01_experiment.ipynb,notebook_json,PASS,
+code/02_canonical_preprocessing_experiment.ipynb,notebook_json,PASS,
+code/03_nontraining_posthoc_analysis.ipynb,notebook_json,PASS,
+code/04_reproducibility_audit.ipynb,notebook_json,PASS,
+code/03_nontraining_posthoc_analysis.py,python_compile,PASS,
+code/reproduce_publication_tables.py,python_compile,PASS,
+code/verify_split_integrity.py,python_compile,PASS,
+audit/FINAL_REPRODUCIBILITY_VERDICT.csv,csv_read,PASS,
+audit/canonical_experiment_verdict_summary.csv,csv_read,PASS,
+audit/keras_full_load_audit_25runs.csv,csv_read,PASS,
+audit/keras_structural_audit_25runs_summary.csv,csv_read,PASS,
+audit/near_duplicate_audit_summary.csv,csv_read,PASS,
+audit/prediction_integrity_audit_30runs.csv,csv_read,PASS,
+audit/split_leakage_audit_5splits.csv,csv_read,PASS,
+data_splits/split_0_seed42.csv,csv_read,PASS,
+data_splits/split_1_seed123.csv,csv_read,PASS,
+data_splits/split_2_seed7.csv,csv_read,PASS,
+data_splits/split_3_seed2024.csv,csv_read,PASS,
+data_splits/split_4_seed99.csv,csv_read,PASS,
+environment/environment_manifest.csv,csv_read,PASS,
+provenance/known_experiment_hashes.csv,csv_read,PASS,
+publication/MAIN_VS_SUPPLEMENT_ALLOCATION.csv,csv_read,PASS,
+results/calibration_summary.csv,csv_read,PASS,
+results/contrast_canonical_vs_unit01_holm.csv,csv_read,PASS,
+results/contrast_finetuned_vs_frozen_holm.csv,csv_read,PASS,
+results/contrast_rgb_vs_grayscale_holm.csv,csv_read,PASS,
+results/control_baselines_summary.csv,csv_read,PASS,
+results/main_factorial_2x2x2_summary.csv,csv_read,PASS,
+results/split_summary.csv,csv_read,PASS,
+results/unit01_and_controls_30runs.csv,csv_read,PASS,
+code/verify_split_integrity.py,execution,PASS,"split=0 seed=42 rows=27558 counts={'train': 17576, 'test': 5580, 'val': 4402} groups={'test': 63, 'train': 293, 'val': 64} group_overlap=0 filepath_overlap=0 status=PASS
+split=1 seed=123 rows=27558 counts={'train': 21097, 'val': 3240, 'test': 3221} groups={'test': 63, 'train': 293, 'val': 64} group_overlap=0 filepath_overlap=0 status=PASS
+split=2 seed=7 rows=27558 counts={'train': 20536, 'val': 3648, 'test': 3374} groups={'test': 63, 'train': 293, 'val': 64} group_overlap=0 filepath_overlap=0 status=PASS
+split=3 seed=2024 rows=27558 counts={'train': 19400, 'val': 4900, 'test': 3258} groups={'test': 63, 'train': 293, 'val': 64} group_overlap=0 filepath_overlap=0 status=PASS
+split=4 seed=99 rows=27558 counts={'train': 19214, 'test': 4728, 'val': 3616} groups={'test': 63, 'train': 293, 'val': 64} group_overlap=0 filepath_overlap=0 status=PASS
+OVERALL: PASS"
+code/reproduce_publication_tables.py,execution,PASS,PASS: publication-facing tables written to /mnt/data/malaria_data_code_reproducibility_package_v2.0.0/reproduced_outputs
