@@ -1,0 +1,57 @@
+Repository Licensing Notice
+
+Copyright (c) 2026 Idham Khaliq and Uturestantix
+
+This repository contains multiple categories of material.
+
+1. Software code
+
+Original source code authored for this repository, including Python scripts,
+notebooks, and verification utilities under the `code/` directory, is licensed
+under the MIT License.
+
+See:
+LICENSE_CODE_MIT.txt
+
+2. Documentation and original research outputs
+
+Original documentation, derived analytical result tables, reproducibility
+audit summaries, figures, and manuscript-support materials authored by the
+repository contributors are licensed under the Creative Commons Attribution
+4.0 International License (CC BY 4.0), unless otherwise stated.
+
+This applies primarily to materials under:
+
+- docs/
+- results/
+- reproduced_outputs/
+- audit/
+- environment/
+- provenance/
+- publication/
+
+See:
+LICENSE_CONTENT_CC-BY-4.0.md
+
+3. Dataset-derived split manifests and third-party material
+
+The original malaria image dataset is NOT redistributed in this repository.
+
+Files under `data_splits/` contain derived split manifests and may include
+filenames, labels, or identifiers originating from the source dataset.
+These files do not transfer ownership or licensing rights over the original
+dataset and remain subject, where applicable, to the terms and conditions of
+the original data source.
+
+Third-party software, datasets, pretrained weights, publications, and other
+materials referenced by this repository retain their respective original
+licenses, terms, and copyrights.
+
+4. No relicensing of third-party material
+
+Nothing in this repository should be interpreted as relicensing the original
+malaria image dataset, pretrained model weights, or any other third-party
+material.
+
+For questions concerning reuse, please consult the original data/software
+providers and the relevant license notices.
