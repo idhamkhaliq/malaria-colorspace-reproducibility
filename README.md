@@ -85,3 +85,14 @@ Before uploading to Zenodo/OSF/GitHub:
 5. obtain the repository URL/DOI;
 6. replace `<REPOSITORY_URL_OR_DOI>` in the manuscript/code-availability statement;
 7. do not modify the deposited release after DOI assignment—create a new version instead.
+
+## License
+
+This repository uses a mixed licensing model:
+
+- Software code: MIT License
+- Original documentation and derived research outputs: CC BY 4.0
+- Original malaria image dataset: not redistributed and not relicensed
+- Third-party materials retain their original licenses
+
+See the root `LICENSE` file for details.
